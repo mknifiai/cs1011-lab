@@ -22,9 +22,9 @@ def test_part1(alphabetical_order):
         #print(ord_lst)
         if f=='a' and s=='b' and t=='c':
             grade1 += 5
-            print(f'test1 with input {'b','c','a'}.... pass')
+            print(f'test1 with input {"b","c","a"}.... pass')
         else:
-            print(f'test1 with input {'b','c','a'}.... fail')
+            print(f'test1 with input {"b","c","a"}.... fail')
     except Exception as ex:
         pass
         
@@ -36,9 +36,9 @@ def test_part1(alphabetical_order):
         #print(ord_lst)
         if f=='a' and s=='b' and t=='c':
             grade1 += 2.5
-            print(f'test2 with input {'c','b','a'}.... pass')
+            print(f'test2 with input {"c","b","a"}.... pass')
         else:
-            print(f'test2 with input {'c','b','a'}.... fail')
+            print(f'test2 with input {"c","b","a"}.... fail')
     except Exception as ex:
         pass
     
@@ -48,9 +48,9 @@ def test_part1(alphabetical_order):
         #print(ord_lst)
         if f=='a' and s=='b' and t=='c':
             grade1 += 2.5
-            print(f'test3 with input {'c','a','b'}.... pass')
+            print(f'test3 with input {"c","a","b"}.... pass')
         else:
-            print(f'test3 with input {'c','a','b'}.... fail')
+            print(f'test3 with input {"c","a","b"}.... fail')
     except Exception as ex:
         pass
     
